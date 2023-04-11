@@ -1,7 +1,7 @@
 investor_name = input("Enter your name: ")
 amount_to_invest = float(input("Enter amount to invest: "))
 
-wallet_balance = amount_to_invest * 1.5
+wallet_balance = (amount_to_invest * 0.5) + amount_to_invest
 print("Wallet balance: ", wallet_balance)
 
 amount_to_withdraw = float(input("Enter amount to withdraw: "))
